@@ -103,7 +103,7 @@
       var y = document.getElementById('tell_me_more_header');
       if (x.style.display === 'none') {
         x.style.display = 'block';
-        y.innerHTML = '<h3>Tell Me More</h3>';
+        y.innerHTML = '<h3></h3>';
       } else {
         x.style.display = 'none';
       }
@@ -586,17 +586,12 @@
           <a
             href=""
             onClick="showTellMeMore(); sendGAEvent('send', 'event', 'Tell me more', 'Clicked tell me more', '0', '0'); return false;"
-            >Tell me more...</a
+            >See more...</a
           >
         </div>
         <div id="tell_me_more" style="display:none">
           <p>
-            In order to slow the spread of the coronavirus, the local government is
-            <a
-              target="_blank"
-              href="https://www1.nyc.gov/site/doh/health/health-topics/coronavirus.page"
-              >advising</a
-            >
+            In order to slow the spread of the coronavirus, the local government is advising
             restaurants, bars, cafes, nightclubs, movie theaters, small theater houses, and concert
             venues to close. Elsewhere closures are even more comprehensive.
           </p>
